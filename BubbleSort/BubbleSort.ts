@@ -33,7 +33,7 @@ export class BubbleSort
                    swapped = true;
                }
            }
-           // If no swaps happened, we have a sorted array:
+           
            if(!swapped)
            {
                break;

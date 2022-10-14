@@ -10,11 +10,11 @@ export class SelectionSort
            {
                if(arr[j] < arr[min])
                {
-                   // Choose the lesser of the two:
+                   
                    min = j;
                }
            }
-           // In-place swap:
+           
            const tmp = arr[min];
            arr[min] = arr[i];
            arr[i] = tmp;

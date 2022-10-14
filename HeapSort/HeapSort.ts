@@ -25,23 +25,23 @@ export class HeapSort
        let leftLeaf = 2 * i + 1;
        let rightLeaf = 2 * i + 2;
 
-       // If the left child is larger than the current largest.
+       
     if (leftLeaf < size && arr[leftLeaf] > arr[largest]) 
        {
         largest = leftLeaf;
     }
-    // If the right child is larger than the current largest.
+    
     if (rightLeaf < size && arr[rightLeaf] > arr[largest]) 
        {
         largest = rightLeaf;
     }
     
-    // If the largest of the two is not the original largest
+    
     if (largest != i) 
        {
-        // Swap i and the largest.
+        
         this.swap(arr, i, largest);
-        // Heapify the sub-tree. 
+         
         this.heapify(arr, size, largest); 
     }
    }
