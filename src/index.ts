@@ -28,7 +28,7 @@ const quick = quickSort
 
 //Para trocar o arquivo a ser executado troque a entrada que a constante array recebe
 
-const array = entrada3
+const array = entrada4
 const inicio = new Date().getTime()
 fs.writeFileSync('saida.txt', '', 'utf-8');
 
@@ -38,9 +38,9 @@ fs.writeFileSync('saida.txt', '', 'utf-8');
 //heap.sort(array)
 //bubble.sort(array)
 //quick(array)
-insertion.sort(array)
+//insertion.sort(array)
 //merge(array)
-//selection.sort(array)
+selection.sort(array)
 
 
 var string = array.toString();
